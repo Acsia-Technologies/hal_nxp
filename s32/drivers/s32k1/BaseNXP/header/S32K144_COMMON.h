@@ -73,9 +73,9 @@
 
 /** Memory map major version (memory maps with equal major version number are
  * compatible) */
-#define MCU_MEM_MAP_VERSION 0x0100U
-/** Memory map minor version */
-#define MCU_MEM_MAP_VERSION_MINOR 0x0001U
+// #define MCU_MEM_MAP_VERSION 0x0100U
+// /** Memory map minor version */
+// #define MCU_MEM_MAP_VERSION_MINOR 0x0001U
 
 /* ----------------------------------------------------------------------------
    -- Generic macros

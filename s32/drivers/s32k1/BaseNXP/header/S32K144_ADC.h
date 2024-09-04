@@ -106,7 +106,7 @@ typedef struct {
 } ADC_Type, *ADC_MemMapPtr;
 
 /** Number of instances of the ADC module. */
-#define ADC_INSTANCE_COUNT                       (2u)
+#define ADC_INSTANCE_COUNT                       (2)
 
 /* ADC - Peripheral instance base addresses */
 /** Peripheral ADC0 base address */
@@ -467,7 +467,7 @@ typedef struct {
 #define ADC_CLP9_OFS_CLP9_OFS_WIDTH              (12U)
 #define ADC_CLP9_OFS_CLP9_OFS(x)                 (((uint32_t)(((uint32_t)(x)) << ADC_CLP9_OFS_CLP9_OFS_SHIFT)) & ADC_CLP9_OFS_CLP9_OFS_MASK)
 /*! @} */
-
+ #define ADC_IRQS                                 { ADC0_IRQn, ADC1_IRQn }
 /*!
  * @}
  */ /* end of group ADC_Register_Masks */
