@@ -100,4 +100,11 @@ if(CONFIG_HAS_MCUX)
     include_mcux_driver_ifdef(CONFIG_HAS_MCUX_CACHE cache/lmem driver_cache_lmem)
   endif()
 
+  message(MCUX_DEVICE="${MCUX_DEVICE}")
+  if(${MCUX_DEVICE} MATCHES "S32K144")
+    add_subdirectory(
+      mcux/devices/S32K144/drivers
+      )
+  endif()
+
 endif()
