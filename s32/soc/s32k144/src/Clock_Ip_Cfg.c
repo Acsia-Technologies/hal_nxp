@@ -292,20 +292,6 @@ const Clock_Ip_ClockConfigType Clock_Ip_aClockConfig[1U] = {
             },
             #endif
 
-            // #if CLOCK_IP_SELECTORS_NO > 12U
-            // {
-            //     FTM4_EXT_CLK,                    /* Clock name associated to selector */
-            //     TCLK0_REF_CLK,                    /* Name of the selected input source */
-            // },
-            // #endif
-
-            // #if CLOCK_IP_SELECTORS_NO > 13U
-            // {
-            //     FTM5_EXT_CLK,                    /* Clock name associated to selector */
-            //     TCLK0_REF_CLK,                    /* Name of the selected input source */
-            // },
-            // #endif
-
             #if CLOCK_IP_SELECTORS_NO > 12U
             {
                 FTM0_CLK,                    /* Clock name associated to selector */
@@ -333,20 +319,6 @@ const Clock_Ip_ClockConfigType Clock_Ip_aClockConfig[1U] = {
                 SPLLDIV1_CLK,                    /* Name of the selected input source */
             },
             #endif
-
-            // #if CLOCK_IP_SELECTORS_NO > 18U
-            // {
-            //     FTM4_CLK,                    /* Clock name associated to selector */
-            //     SPLLDIV1_CLK,                    /* Name of the selected input source */
-            // },
-            // #endif
-
-            // #if CLOCK_IP_SELECTORS_NO > 19U
-            // {
-            //     FTM5_CLK,                    /* Clock name associated to selector */
-            //     SPLLDIV1_CLK,                    /* Name of the selected input source */
-            // },
-            // #endif
 
             #if CLOCK_IP_SELECTORS_NO > 16U
             {
@@ -848,20 +820,6 @@ const Clock_Ip_ClockConfigType Clock_Ip_aClockConfig[1U] = {
             },
             #endif
 
-            // #if CLOCK_IP_GATES_NO > 21U
-            // {
-            //     FTM4_CLK,                    /* name */
-            //     1U,                           /* enable */
-            // },
-            // #endif
-
-            // #if CLOCK_IP_GATES_NO > 22U
-            // {
-            //     FTM5_CLK,                    /* name */
-            //     1U,                           /* enable */
-            // },
-            // #endif
-
             #if CLOCK_IP_GATES_NO > 21U
             {
                 LPI2C0_CLK,                    /* name */
@@ -993,13 +951,7 @@ const Clock_Ip_ClockConfigType Clock_Ip_aClockConfig[1U] = {
                 RTC0_CLK,                    /* name */
                 1U,                           /* enable */
             },
-            // #endif
-
-            // #if CLOCK_IP_GATES_NO > 40U
-            // {
-            //     TRACE_CLK,                    /* name */
-            //     1U,                           /* enable */
-            // },
+            
             #endif
         },
 

@@ -3,4 +3,3 @@
 
 zephyr_include_directories(include)
 zephyr_library_sources(src/ftfc_flash_driver.c)
-#zephyr_library_sources(src/peripherals_flash_FTFC.c)

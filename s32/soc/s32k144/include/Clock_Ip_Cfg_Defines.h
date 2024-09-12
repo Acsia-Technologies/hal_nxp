@@ -74,7 +74,7 @@ extern "C"{
 /**
 * @brief            Max number of selectors 32U on 146
 */
-#define CLOCK_IP_SELECTORS_COUNT       (28U) //Reflected.
+#define CLOCK_IP_SELECTORS_COUNT       (28U)
 
 /**
 * @brief            Max number of dividers.
@@ -195,8 +195,8 @@ extern "C"{
 #define CLOCK_IP_HAS_SPLLDIV2_CLK         17U
 #define CLOCK_IP_HAS_LPO_32K_CLK         18U
 #define CLOCK_IP_HAS_LPO_1K_CLK         19U
-#define CLOCK_IP_HAS_TCLK0_REF_CLK         20U //!
-#define CLOCK_IP_HAS_TCLK1_REF_CLK         21U //!
+#define CLOCK_IP_HAS_TCLK0_REF_CLK         20U
+#define CLOCK_IP_HAS_TCLK1_REF_CLK         21U
 #define CLOCK_IP_HAS_TCLK2_REF_CLK         22U
 #define CLOCK_IP_HAS_RTC_CLKIN         23U
 #define CLOCK_IP_HAS_SCS_CLK         24U
@@ -222,12 +222,10 @@ extern "C"{
 #define CLOCK_IP_HAS_FTM1_EXT_CLK         44U
 #define CLOCK_IP_HAS_FTM2_EXT_CLK         45U
 #define CLOCK_IP_HAS_FTM3_EXT_CLK         46U
-// #define CLOCK_IP_HAS_FTM4_EXT_CLK         47U //Values below change causes crash?
-// #define CLOCK_IP_HAS_FTM5_EXT_CLK         48U
-#define CLOCK_IP_FEATURE_PRODUCERS_NO         47U //?
+#define CLOCK_IP_FEATURE_PRODUCERS_NO         47U
 #define CLOCK_IP_HAS_ADC0_CLK         48U
 #define CLOCK_IP_HAS_ADC1_CLK         49U
-#define CLOCK_IP_HAS_CLKOUT0_CLK         50U    //Usage to be checked.
+#define CLOCK_IP_HAS_CLKOUT0_CLK         50U
 #define CLOCK_IP_HAS_CMP0_CLK         51U
 #define CLOCK_IP_HAS_CRC0_CLK         52U
 #define CLOCK_IP_HAS_DMA0_CLK         53U
@@ -244,8 +242,6 @@ extern "C"{
 #define CLOCK_IP_HAS_FTM1_CLK         64U
 #define CLOCK_IP_HAS_FTM2_CLK         65U
 #define CLOCK_IP_HAS_FTM3_CLK         66U
-// #define CLOCK_IP_HAS_FTM4_CLK         69U
-// #define CLOCK_IP_HAS_FTM5_CLK         70U
 #define CLOCK_IP_HAS_LPI2C0_CLK         67U
 #define CLOCK_IP_HAS_LPIT0_CLK         68U
 #define CLOCK_IP_HAS_LPSPI0_CLK         69U
@@ -253,7 +249,7 @@ extern "C"{
 #define CLOCK_IP_HAS_LPSPI2_CLK         71U
 #define CLOCK_IP_HAS_LPTMR0_CLK         72U
 #define CLOCK_IP_HAS_LPUART0_CLK         73U
-#define CLOCK_IP_HAS_LPUART1_CLK         74U // Fixed.
+#define CLOCK_IP_HAS_LPUART1_CLK         74U
 #define CLOCK_IP_HAS_LPUART2_CLK         75U
 #define CLOCK_IP_HAS_MPU0_CLK         76U
 #define CLOCK_IP_HAS_MSCM0_CLK         77U
